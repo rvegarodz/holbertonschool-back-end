@@ -1,3 +1,4 @@
+ #!/usr/bin/python3
 import requests
 from sys import argv
 """Python script that, returns information for a given employee ID
