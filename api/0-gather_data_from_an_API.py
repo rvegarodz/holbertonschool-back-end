@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-import requests
-from sys import argv
 """Python script that, returns information for a given employee ID
 about his/her TODO list progress"""
+
+import requests
+from sys import argv
 
 if __name__ == "__main__":
     user_id = eval(argv[1])
