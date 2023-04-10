@@ -24,10 +24,10 @@ if __name__ == '__main__':
     for task in tasks_dict:
         if task['userId'] == user_id:
             task_dict = {'task': task['title'],
-                   'completed': task['completed'],
-                   'username': username}
+                         'completed': task['completed'],
+                         'username': username}
             dict_list.append(task_dict)
-    
+
     full_dict[user_id] = (dict_list)
     # writing to json file
     with open(filename, 'w') as jsonfile:
